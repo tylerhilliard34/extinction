@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'pt_serifregular';
+    src: url('../fonts/ptf55f-webfont.woff2') format('woff2'),
+         url('../fonts/ptf55f-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'source_sans_probold';
+    src: url('../fonts/sourcesanspro-bold-webfont.woff2') format('woff2'),
+         url('../fonts/sourcesanspro-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+	background-color: teal ;
+	padding: 0;
+	margin: 0;
+}
+
+#wrapper {
+	width: 70%;
+	margin: 0 auto;
+	padding: 5%;
+	background-color: #e0e0e0;
+}
+
+h1 {
+	font-family: 'source_sans_probold', sans-serif;
+    color: teal;
+}
+
+p {
+	font-family: 'pt_serifregular', serif;
+}
+
+.images {
+    border-top: 5px solid teal;
+    margin: 25px 0 0 0;
+    padding: 25px 0 0 0;
+}
+
+.img-50 {
+    float: left;
+    width: 50%;
+}
+
+.img-100 {
+    width: 100%;
+}
